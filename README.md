@@ -68,8 +68,6 @@ This documentation provides a comprehensive guide to understanding, implementing
 
 # Microservices vs. Monolithic Architecture
 
-![Monolithic-to-Microservices](https://github.com/douaeelh2/Microservices/assets/127549220/3cf2c04b-7a47-4090-8509-bbd447070608)
-
 
 
 | Feature/Aspect                    | Microservices Architecture                                                                 | Monolithic Architecture                                      |
@@ -91,6 +89,9 @@ This documentation provides a comprehensive guide to understanding, implementing
 
 
 # How do Microservices work?
+
+![Monolithic-to-Microservices](https://github.com/douaeelh2/Microservices/assets/127549220/3cf2c04b-7a47-4090-8509-bbd447070608)
+
 
 Microservices work by breaking down a complex application into smaller, independent pieces that communicate and work together, providing flexibility, scalability, and easier maintenance, much like constructing a city from modular, interconnected components.
 
