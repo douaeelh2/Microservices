@@ -7,6 +7,7 @@ This documentation provides a comprehensive guide to understanding, implementing
 1. [Introduction to Microservices](#introduction-to-microservices)
     - [What are Microservices?](#what-are-microservices)
     - [Microservices vs. Monolithic Architecture?](#microservices-vs.-monolithic-architecture?)
+    - [How to move from Monolithic to Microservices?](#how-to-move-from-monolithic-to-microservices?)
     - [How do Microservices work?](#how-do-microservices-work)
     - [Key Components of a Microservices Architecture](#key-components-of-a-microservices-architecture)
 2. [Creating Microservices in Java Using Spring Boot](#creating-microservices-in-java-using-spring-boot)
@@ -53,11 +54,15 @@ This documentation provides a comprehensive guide to understanding, implementing
 
 # What are Microservices?
 
-https://github.com/douaeelh2/Microservices/assets/127549220/6dbfa4d8-87e5-4a2f-9541-c8efb6a31ef4
+![microservices](https://github.com/douaeelh2/Microservices/assets/127549220/6dbfa4d8-87e5-4a2f-9541-c8efb6a31ef4)
 
 - Microservices are a software architectural style in which a large application is built as a collection of small, independent services that communicate with each other over a network.
 
 - Each service is a self-contained unit of functionality that can be developed, tested, and deployed independently of the other services. This allows for more flexibility and scalability than a monolithic architecture, where all the functionality is contained in a single, large codebase.
+
+- Microservices can be written in different programming languages and use different technologies as long as they can communicate with each other through a common API.
+
+- Microservices are designed to be loosely coupled, meaning that changes to one service should not affect the other services. This makes it easier to update, maintain, and scale the application. Microservices architecture is best suited for large and complex applications that need to handle a high volume of traffic and be scaled horizontally.
 
 
 
@@ -81,6 +86,18 @@ https://github.com/douaeelh2/Microservices/assets/127549220/6dbfa4d8-87e5-4a2f-9
 | **Data Management**               | Decentralized data management, each service manages its own data                              | Centralized data management, all parts of the application share the same database |
 | **Examples of Use**               | Large, complex, and scalable applications, such as Netflix, Amazon, and Uber                 | Smaller applications or those with tightly coupled components, such as simple web applications or internal tools |
 
-- Microservices can be written in different programming languages and use different technologies as long as they can communicate with each other through a common API.
+# How to move from Monolithic to Microservices?
 
-- Microservices are designed to be loosely coupled, meaning that changes to one service should not affect the other services. This makes it easier to update, maintain, and scale the application. Microservices architecture is best suited for large and complex applications that need to handle a high volume of traffic and be scaled horizontally.
+![Monolithic-to-Microservices](https://github.com/douaeelh2/Microservices/assets/127549220/3cf2c04b-7a47-4090-8509-bbd447070608)
+Below are the main the key steps to move from a monolithic to microservices architecture:
+
+- **Evaluate Monolith:** Understand the existing monolithic application, identifying components for migration.
+- **Define Microservices:** Break down the monolith into distinct business capabilities for microservices.
+- **Strangler Pattern:** Gradually replace monolithic parts with microservices, adopting a gradual migration approach.
+- **API Definition:** Clearly define APIs and contracts for seamless microservices communication.
+- **CI/CD Implementation:** Set up Continuous Integration/Continuous Deployment (CI/CD) for automated testing and deployment.
+- **Decentralize Data:** Transition to a database-per-service approach, reducing dependencies on a central database.
+- **Service Discovery:** Introduce service discovery mechanisms for dynamic communication between microservices.
+- **Logging and Monitoring:** Implement centralized logging and monitoring for visibility into microservices’ performance.
+- **Cross-Cutting Concerns:** Manage cross-cutting concerns like security and authentication consistently across microservices.
+- **Iterative Improvement:** Embrace an iterative approach, continuously refining and expanding microservices based on feedback and evolving needs.
