@@ -94,38 +94,38 @@ This documentation provides a comprehensive guide to understanding, implementing
 
 Microservices work by breaking down a complex application into smaller, independent pieces that communicate and work together, providing flexibility, scalability, and easier maintenance, much like constructing a city from modular, interconnected components.
 
-### Modular Structure
-- Microservices architecture breaks down large, monolithic applications into smaller, independent services.
-- Each service is a self-contained module with a specific business capability or function.
-- This modular structure promotes flexibility, ease of development, and simplified maintenance.
+- ### Modular Structure
+    - Microservices architecture breaks down large, monolithic applications into smaller, independent services.
+    - Each service is a self-contained module with a specific business capability or function.
+    - This modular structure promotes flexibility, ease of development, and simplified maintenance.
 
-### Independent Functions
-- Each microservice is designed to handle a specific business function or feature.
-- For example, one service may manage user authentication, while another handles product catalog functions.
-- This independence allows for specialized development and maintenance of each service.
+- ### Independent Functions
+    - Each microservice is designed to handle a specific business function or feature.
+    - For example, one service may manage user authentication, while another handles product catalog functions.
+    - This independence allows for specialized development and maintenance of each service.
 
-### Communication
-- Microservices communicate with each other through well-defined Application Programming Interfaces (APIs).
-- APIs serve as the interfaces through which services exchange information and requests.
-- This standardized communication enables interoperability and flexibility in integrating services.
+- ### Communication
+    - Microservices communicate with each other through well-defined Application Programming Interfaces (APIs).
+    - APIs serve as the interfaces through which services exchange information and requests.
+    - This standardized communication enables interoperability and flexibility in integrating services.
 
-### Flexibility
-- Microservices architecture supports the use of diverse technologies for each service.
-- This means that different programming languages, frameworks, and databases can be chosen based on the specific requirements of each microservice.
-- Teams have the flexibility to use the best tools for their respective functions.
+- ### Flexibility
+    - Microservices architecture supports the use of diverse technologies for each service.
+    - This means that different programming languages, frameworks, and databases can be chosen based on the specific requirements of each microservice.
+    - Teams have the flexibility to use the best tools for their respective functions.
 
-### Independence and Updates
-- Microservices operate independently, allowing for updates or modifications to one service without affecting the entire system.
-- This decoupling of services reduces the risk of system-wide disruptions during updates, making it easier to implement changes and improvements.
-- Also Microservices contribute to system resilience by ensuring that if one service encounters issues or failures, it does not bring down the entire system.
+- ### Independence and Updates
+    - Microservices operate independently, allowing for updates or modifications to one service without affecting the entire system.
+    - This decoupling of services reduces the risk of system-wide disruptions during updates, making it easier to implement changes and improvements.
+    - Also Microservices contribute to system resilience by ensuring that if one service encounters issues or failures, it does not bring down the entire system.
 
-### Scalability
-- Microservices offer scalability by allowing the addition of instances of specific services.
-- If a particular function requires more resources, additional instances of that microservice can be deployed to handle increased demand.
-- This scalability is crucial for adapting to varying workloads.
+- ### Scalability
+    - Microservices offer scalability by allowing the addition of instances of specific services.
+    - If a particular function requires more resources, additional instances of that microservice can be deployed to handle increased demand.
+    - This scalability is crucial for adapting to varying workloads.
 
-### Continuous Improvement
-- The modular nature of microservices facilitates continuous improvement.
-- Development teams can independently work on and release updates for their respective services.
-- This agility enables the system to evolve rapidly and respond to changing requirements or user needs.
+- ### Continuous Improvement
+    - The modular nature of microservices facilitates continuous improvement.
+    - Development teams can independently work on and release updates for their respective services.
+    - This agility enables the system to evolve rapidly and respond to changing requirements or user needs.
 
