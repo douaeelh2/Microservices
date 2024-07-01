@@ -91,7 +91,8 @@ This documentation provides a comprehensive guide to understanding, implementing
 ![Monolithic-to-Microservices](https://github.com/douaeelh2/Microservices/assets/127549220/3cf2c04b-7a47-4090-8509-bbd447070608)
 Below are the main the key steps to move from a monolithic to microservices architecture:
 
-  **### Evaluate Monolith:** Understand the existing monolithic application, identifying components for migration.
+  ### Evaluate Monolith: 
+- Understand the existing monolithic application, identifying components for migration.
   ### Define Microservices: 
 - Break down the monolith into distinct business capabilities for microservices.
   ### Strangler Pattern:
