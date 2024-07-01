@@ -132,21 +132,21 @@ Microservices work by breaking down a complex application into smaller, independ
 
 # Key Components of a Microservices Architecture
 
-### - Core Services: 
+- ### Core Services: 
 Each service is a self-contained unit of functionality that can be developed, tested, and deployed independently of the other services.
 Service registry: A service registry is a database of all the services in the system, along with their locations and capabilities. It allows services to discover and communicate with each other.
 
-### - API Gateway: 
+- ### API Gateway: 
 An API gateway is a single entry point for all incoming requests to the microservices. It acts as a reverse proxy, routing requests to the appropriate service and handling tasks such as authentication and rate limiting.
 
-### - Message bus: 
+- ### Message bus: 
 A message bus is a messaging system that allows services to communicate asynchronously with each other. This can be done through protocols like HTTP, RabbitMQ, or Kafka.
 
-### - Monitoring and logging:
+- ### Monitoring and logging:
 Monitoring and logging are necessary to track the health of the services and troubleshoot problems.
 
-### - Service discovery and load balancing: 
+- ### Service discovery and load balancing: 
 This component is responsible for discovering service instances and directing traffic to the appropriate service instances based on load and availability.
 
-### - Continuous integration and continuous deployment (CI/CD): 
+- ### Continuous integration and continuous deployment (CI/CD): 
 To make the development and deployment process of microservices as smooth as possible, it is recommended to use a tool such as Jenkins, TravisCI, or CircleCI to automate the process of building, testing, and deploying microservices.
