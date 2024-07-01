@@ -91,23 +91,23 @@ This documentation provides a comprehensive guide to understanding, implementing
 ![Monolithic-to-Microservices](https://github.com/douaeelh2/Microservices/assets/127549220/3cf2c04b-7a47-4090-8509-bbd447070608)
 Below are the main the key steps to move from a monolithic to microservices architecture:
 
- ## Evaluate Monolith:
+  ### Evaluate Monolith:
 -  Understand the existing monolithic application, identifying components for migration.
-  ## Define Microservices: 
+  ### Define Microservices: 
 - Break down the monolith into distinct business capabilities for microservices.
-  ## Strangler Pattern:
+  ### Strangler Pattern:
 - Gradually replace monolithic parts with microservices, adopting a gradual migration approach.
-  ## API Definition:
+  ### API Definition:
 - Clearly define APIs and contracts for seamless microservices communication.
-  ## CI/CD Implementation:
+  ### CI/CD Implementation:
 - Set up Continuous Integration/Continuous Deployment (CI/CD) for automated testing and deployment.
-  ## Decentralize Data:
+  ### Decentralize Data:
 - Transition to a database-per-service approach, reducing dependencies on a central database.
-  ## Service Discovery:
+  ### Service Discovery:
 - Introduce service discovery mechanisms for dynamic communication between microservices.
-  ## Logging and Monitoring:
+  ### Logging and Monitoring:
 - Implement centralized logging and monitoring for visibility into microservices’ performance.
-  ## Cross-Cutting Concerns:
+  ### Cross-Cutting Concerns:
 - Manage cross-cutting concerns like security and authentication consistently across microservices.
-  ## Iterative Improvement:
+  ### Iterative Improvement:
 -  Embrace an iterative approach, continuously refining and expanding microservices based on feedback and evolving needs.
