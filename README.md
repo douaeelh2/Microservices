@@ -159,11 +159,9 @@ To make the development and deployment process of microservices as smooth as pos
 
 # Middleware and Microservices
 
-## Middleware and Microservices
-
 Middleware plays a crucial role in microservices architecture by facilitating communication, data exchange, and integration between different services. It acts as a bridge, ensuring that various services can interact seamlessly, even if they are built using different technologies. Middleware helps in handling different aspects like message transformation, protocol conversion, security, and scalability, which are essential for a robust and efficient microservices ecosystem.
 
-## Middleware Comparison for Microservices
+## Middlewares for Microservices
 
 | Feature/Aspect              | SOAP                                                 | REST                                                 | GraphQL                                              | gRPC                                                 |
 |-----------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
